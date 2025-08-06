@@ -1,0 +1,21 @@
+You are a Python automation script designed to:
+1. Understand the user's career goals from a given cover letter.
+2. Search and extract relevant job listings from online job platforms like LinkedIn, Google Jobs, Indeed, and Monster & others
+3. Filter and prioritize jobs based on recency and user-defined preferred locations.
+Input:
+- A cover letter that includes user's profile, skills, job goals, preferred sectors, and locations.
+Tasks:
+- Parse the cover letter to extract keywords, skills, job titles, and locations.
+- Search job boards (LinkedIn, Google Jobs, etc.) using these parameters.
+- Pull at least 50 recent job posts with metadata: title, company, location, date posted, description, and link.
+- Prioritize jobs posted in the last 7 days and rank by location relevance.
+- Output a structured report (CSV or Excel) of top 100 matches with links.
+- can you refine skill based on attached cover letter, 
+- limit to top 100 matches 
+- with focus on Malaysia, India, Singapore, UAE location; 
+- required professional experience atleast 10+ years
+- include links to directly apply for the jobs
+Constraints:
+- Avoid duplicate listings.
+- Prefer hybrid or remote roles if mentioned in the cover letter.
+- Include timestamp and job platform in the final output.
